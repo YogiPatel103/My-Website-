@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Yogi Patel – Aspiring Full Stack Developer | London, UK" />
+  <title>Yogi Patel | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Google Fonts: Space Grotesk for headings, Inter for body -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Inter:wght@400;500&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="navbar" aria-label="Main navigation">
+    <div class="nav-logo">YP</div>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" role="list">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#learning">Learning</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#repositories">Repos</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section id="hero" class="hero" aria-label="Introduction">
+      <div class="hero-bg-grid" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="hero-greeting">👋 Welcome to my Portfolio</p>
+        <h1 class="hero-name">
+          <span class="typed-wrapper">
+            <span class="typed-text" id="typed-name"></span>
+            <span class="cursor" aria-hidden="true">|</span>
+          </span>
+        </h1>
+        <p class="hero-bio">Aspiring Full Stack Developer&nbsp;&nbsp;·&nbsp;&nbsp;London, UK</p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a
+            href="https://github.com/justayogi"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-outline"
+          >GitHub Profile</a>
+        </div>
+      </div>
+      <!-- Animated floating shapes -->
+      <div class="hero-shapes" aria-hidden="true">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS SECTION ===== -->
+    <section id="skills" class="section" aria-labelledby="skills-heading">
+      <div class="container">
+        <h2 id="skills-heading" class="section-title">
+          <span class="section-label">// 01</span> Skills
+        </h2>
+        <p class="section-sub">Languages &amp; technologies I work with</p>
+        <div class="skills-grid">
+          <div class="skill-card" data-skill="Python">
+            <div class="skill-icon">
+              <!-- Python icon SVG -->
+              <svg viewBox="0 0 48 48" fill="none" aria-hidden="true">
+                <path d="M24 4C13 4 13.5 9 13.5 9v4.5h11V15H9S4 14.5 4 25.5 9 36 9 36h3.5v-5s-.2-5 5-5h10s5 .1 5-5V10S33.5 4 24 4z" fill="#3776AB"/>
+                <path d="M24 44C35 44 34.5 39 34.5 39v-4.5h-11V33h15.5S44 33.5 44 22.5 39 12 39 12h-3.5v5s.2 5-5 5H20s-5-.1-5 5v11S14.5 44 24 44z" fill="#FFD43B"/>
+                <circle cx="18" cy="11" r="1.5" fill="#fff"/>
+                <circle cx="30" cy="37" r="1.5" fill="#fff"/>
+              </svg>
+            </div>
+            <span class="skill-name">Python</span>
+            <div class="skill-bar"><div class="skill-fill" style="--fill:75%"></div></div>
+          </div>
+
+          <div class="skill-card" data-skill="HTML">
+            <div class="skill-icon">
+              <svg viewBox="0 0 48 48" fill="none" aria-hidden="true">
+                <path d="M6 4l3.6 40L24 48l14.4-4L42 4H6z" fill="#E44D26"/>
+                <path d="M24 44.4V7.5H39.2L36.3 39.6 24 44.4z" fill="#F16529"/>
+                <path d="M11 12h13v5.5H16.8l.3 4h6.9v5.5H11.8L11 12zM17.3 29H23v5.5l-5-1.4-.3-4.1z" fill="#fff"/>
+                <path d="M23 12h13l-1.2 15H23v-5.5h6.6l.3-4H23V12zm0 17h5.5l-.5 5.6L23 35.9V34z" fill="#ebebeb"/>
+              </svg>
+            </div>
+            <span class="skill-name">HTML</span>
+            <div class="skill-bar"><div class="skill-fill" style="--fill:85%"></div></div>
+          </div>
+
+          <div class="skill-card" data-skill="CSS">
+            <div class="skill-icon">
+              <svg viewBox="0 0 48 48" fill="none" aria-hidden="true">
+                <path d="M6 4l3.6 40L24 48l14.4-4L42 4H6z" fill="#1572B6"/>
+                <path d="M24 44.4V7.5H39.2L36.3 39.6 24 44.4z" fill="#33A9DC"/>
+                <path d="M11 12h13v5.5H16.5l.3 3.5H24v5.5H11.8L11 12zM17.5 29.5H24v5.5l-5.5-1.5-.4-4z" fill="#fff"/>
+                <path d="M23 12h13l-1.2 14.5H23V21h6.3l.3-3.5H23V12zm0 17.5h5.5l-.5 5.5L23 36.4V35z" fill="#ebebeb"/>
+              </svg>
+            </div>
+            <span class="skill-name">CSS</span>
+            <div class="skill-bar"><div class="skill-fill" style="--fill:80%"></div></div>
+          </div>
+
+          <div class="skill-card" data-skill="JavaScript">
+            <div class="skill-icon">
+              <svg viewBox="0 0 48 48" fill="none" aria-hidden="true">
+                <rect width="48" height="48" rx="4" fill="#F7DF1E"/>
+                <path d="M13 36.5c.8 1.5 2 2.5 4 2.5 2.2 0 3.5-1 3.5-3V22h4v14c0 4.5-2.5 6.5-6.3 6.5-3.4 0-5.3-1.8-6.3-3.8L13 36.5zM28 36c1 1.7 2.5 3 5 3 2.2 0 3.5-1 3.5-2.5 0-1.7-1.3-2.3-3.5-3.3l-1.3-.5c-3.5-1.5-5.7-3.3-5.7-7 0-3.5 2.7-6.2 6.8-6.2 3 0 5 1 6.5 3.8l-3.5 2.3c-.8-1.5-1.7-2-3-2-1.3 0-2.2.8-2.2 2 0 1.3.8 1.8 2.8 2.7l1.3.5c4 1.7 6.3 3.5 6.3 7.2 0 4-3.2 6.5-7.5 6.5-4.2 0-7-2.2-8.3-5L28 36z" fill="#000"/>
+              </svg>
+            </div>
+            <span class="skill-name">JavaScript</span>
+            <div class="skill-bar"><div class="skill-fill" style="--fill:70%"></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CURRENTLY LEARNING SECTION ===== -->
+    <section id="learning" class="section section-alt" aria-labelledby="learning-heading">
+      <div class="container">
+        <h2 id="learning-heading" class="section-title">
+          <span class="section-label">// 02</span> Currently Learning
+        </h2>
+        <p class="section-sub">Always levelling up — here's what I'm working on right now</p>
+        <div class="learning-grid">
+
+          <div class="learning-card">
+            <div class="learning-icon" aria-hidden="true">🌐</div>
+            <h3>Website Development</h3>
+            <p>
+              Deepening my skills in building responsive, accessible, and performant
+              websites using <strong>HTML</strong>, <strong>CSS</strong>, and
+              <strong>JavaScript</strong> — from layouts and animations to APIs and
+              dynamic UIs.
+            </p>
+            <div class="tag-list" aria-label="Related technologies">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+            </div>
+          </div>
+
+          <div class="learning-card">
+            <div class="learning-icon" aria-hidden="true">📱</div>
+            <h3>App Development</h3>
+            <p>
+              Exploring cross-platform mobile development to build apps for both
+              <strong>iPhone (iOS)</strong> and <strong>Android</strong> — focusing
+              on user-friendly interfaces and real-world functionality.
+            </p>
+            <div class="tag-list" aria-label="Related platforms">
+              <span class="tag">iOS</span>
+              <span class="tag">Android</span>
+              <span class="tag">Swift</span>
+              <span class="tag">Kotlin</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS SECTION ===== -->
+    <section id="projects" class="section" aria-labelledby="projects-heading">
+      <div class="container">
+        <h2 id="projects-heading" class="section-title">
+          <span class="section-label">// 03</span> Projects
+        </h2>
+        <p class="section-sub">A selection of repositories from my GitHub — loaded live via the API</p>
+
+        <!-- Loading state -->
+        <div id="projects-loading" class="loading-state" aria-live="polite" aria-label="Loading projects">
+          <div class="spinner" aria-hidden="true"></div>
+          <p>Fetching projects from GitHub…</p>
+        </div>
+
+        <!-- Error state -->
+        <div id="projects-error" class="error-state hidden" role="alert">
+          <p>⚠️ Couldn't load projects. <a href="https://github.com/justayogi" target="_blank" rel="noopener noreferrer">View on GitHub</a> instead.</p>
+        </div>
+
+        <!-- Cards grid -->
+        <div id="projects-grid" class="projects-grid hidden" aria-label="Project cards"></div>
+      </div>
+    </section>
+
+    <!-- ===== REPOSITORIES SECTION ===== -->
+    <section id="repositories" class="section section-alt" aria-labelledby="repos-heading">
+      <div class="container">
+        <h2 id="repos-heading" class="section-title">
+          <span class="section-label">// 04</span> Repositories
+        </h2>
+        <p class="section-sub">
+          All public repositories — browse or visit my
+          <a href="https://github.com/justayogi" target="_blank" rel="noopener noreferrer" class="inline-link">GitHub profile</a>
+          directly.
+        </p>
+
+        <!-- Loading state -->
+        <div id="repos-loading" class="loading-state" aria-live="polite" aria-label="Loading repositories">
+          <div class="spinner" aria-hidden="true"></div>
+          <p>Fetching repositories…</p>
+        </div>
+
+        <!-- Error state -->
+        <div id="repos-error" class="error-state hidden" role="alert">
+          <p>⚠️ Couldn't load repositories. <a href="https://github.com/justayogi" target="_blank" rel="noopener noreferrer">View on GitHub</a> instead.</p>
+        </div>
+
+        <!-- Repository list -->
+        <div id="repos-list" class="repos-list hidden" aria-label="Repository list"></div>
+
+        <div class="repos-footer">
+          <a
+            href="https://github.com/justayogi"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-outline"
+          >View all on GitHub →</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" aria-label="Footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Yogi Patel. Built with HTML, CSS &amp; JS.</p>
+      <a
+        href="https://github.com/justayogi"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="footer-github"
+        aria-label="GitHub profile"
+      >
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" width="22" height="22">
+          <path d="M12 .3A12 12 0 0 0 0 12.3c0 5.3 3.4 9.8 8.2 11.4.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.5-1.4-1.3-1.8-1.3-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17 4.3 18 4.6 18 4.6c.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 24 12.3 12 12 0 0 0 12 .3z"/>
+        </svg>
+      </a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
